@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
+// @ts-expect-error Vite handles asset imports dynamically
+import logoIba from "./assets/logo1.png";
 import {
   Instagram,
   Mail,
@@ -93,7 +95,7 @@ function Nav() {
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
         <a href="#home" className="block max-w-[200px]">
           <img
-            src="src\assets\logo1.png"
+            src={logoIba}
             alt="Logo"
             className="h-14 w-auto object-contain"
           />
