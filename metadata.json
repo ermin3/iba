@@ -1,0 +1,8 @@
+{
+  "name": "Interior by Iba",
+  "description": "Premium interior design and custom-made furniture studio based in Sarajevo. Specializing in kitchens, wardrobes, and modern living spaces.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
